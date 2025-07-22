@@ -1,0 +1,9 @@
+variable A : entier
+variable B : entier
+variable C : entier
+
+    début 
+        A=B
+        B=C 
+        C=A 
+    fin

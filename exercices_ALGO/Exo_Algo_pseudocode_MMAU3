@@ -1,0 +1,31 @@
+ax^2+bx=c=0
+
+x= (-b + racine(b^2-4ac)) /2a
+
+
+Variable a : réel
+Variable b : réel
+Variable c : réel
+Variable delta : réel
+Variable resultat : réel
+resultat : réel
+
+Début
+
+ delta = (b*b-4*a*c) 
+ Si delta = 0 Alors  
+ resultat =  -(b/ (2*a))
+
+ FinSi
+
+ Ecrire ("La solution est :" resultat,)
+
+ Si delta > 0 Alors
+
+ resultat = -(b-(racine)delta) /(2a) XOR resultat = -(b + (racine)delta) / (2a)  // comment choisir la bonne ?
+
+
+
+
+Fin
+

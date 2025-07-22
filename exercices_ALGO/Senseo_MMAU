@@ -1,0 +1,36 @@
+Constante TASSE_PRESENTE
+Constante QUANTITE_CAFE : réel = 25cL
+Constante NIVEAU_EAU : réel = 10 g
+Variable cafe : réel
+Variable eau : réel
+
+
+//Pour faire un cafe senseo
+Debut
+// Vérifier présence d'une tasse
+    Si TASSE_PRESENTE = False Alors
+    Ne rien faire // ?? comment traduire ça  ? 
+    FinSi
+
+    Si TASSE_PRESENTE = True Alors
+    Proceder à l'etape suivante
+    FinSi
+
+// Se servir la bonne quantité de café en poudre
+
+    Lire (cafe)
+    Tantque cafe < QUANTITE_CAFE Alors 
+    Servir cafe JUSQU'A cafe == QUANTITE_CAFE
+    Ecrire ("Votre quantité de café est optimale, veuillez vous servir de l'eau")
+    Proceder à l'etape suivante
+    FinTantque 
+
+// Verser la bonne quantité d'eau chaude
+
+    Lire (eau)
+    Tantque eau < NIVEAU_EAU Alors
+    Verser eau JUSQU'A eau == NIVEAU_EAU
+    Ecrire ("Votre café est pret, bonne dégustation !")
+    FinTantque
+
+Fin

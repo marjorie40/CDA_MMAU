@@ -1,0 +1,28 @@
+Variable A : entier
+Variable i : entier
+resultat : entier
+
+Début 
+resultat = 0
+
+    Ecrire ("Veuillez entrer un nombre entier positif")
+    Lire (valeur A) 
+
+    Si A < 0 Alors
+    Ecrire ("ERREUR : Pourriez vous saisir un nombre POSITIF s'il vous plait :) !" )
+
+    Sinon A > = 0 Alors   
+        Pour i allant de 0 à A 
+
+        Tant que resultat mod 2 == 0 Faire
+        Ecrire ("Les nombres pairs jusqu'à " A, " sont :" resultat,) // est ce que ca fonctionne avec des résultats multiples ?? 
+
+        i = i +1 // avant le fin pour ou après ?
+        FinPour
+
+        FinTantque
+       
+    FinSi 
+
+Fin
+
