@@ -1,0 +1,35 @@
+// Entrer un nombre entier positif et affiche tous les nombres pairs de 0 jusque nombre
+
+ALGO : affichage_Pairs
+
+Variables n , r : entiers
+
+Début
+Ecrire ("Veuillez entrer un nombre entier positif")
+Lire (n) 
+
+    Tant que n < 0 Faire
+    Ecrire ("ERREUR : Pourriez-vous saisir un nombre POSITIF s'il vous plait :) !" )
+    Fin Tantque 
+
+Si n > = 0 Alors
+r = 0 
+
+    Répéter
+
+        Pour r allant de 0 à n pas 1 Faire
+
+            si r mod 2 == 0 Alors // comment écrire (utiliser modulo) ? 
+            Ecrire (r "est un nombre pair")
+            FinSi
+
+        r = r + 1
+
+        FinPour
+    Jusqu'a r = n 
+    
+    FinRepeter
+
+Fin
+
+

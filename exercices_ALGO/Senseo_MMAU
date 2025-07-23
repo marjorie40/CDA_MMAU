@@ -9,7 +9,7 @@ Variable eau : réel
 Debut
 // Vérifier présence d'une tasse
     Si TASSE_PRESENTE = False Alors
-    Ne rien faire // ?? comment traduire ça  ? 
+    Ne rien faire // ?? comment traduire ça  ? PAS NECESSAIRE ?
     FinSi
 
     Si TASSE_PRESENTE = True Alors

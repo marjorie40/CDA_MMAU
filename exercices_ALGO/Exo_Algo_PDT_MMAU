@@ -1,0 +1,19 @@
+// Exercice pour connaitre le nombre d'aller-retour 
+
+ALGO : Nombre_AR
+
+Variable N : entier // nombre d'aller-retour 
+Variable i : entier
+Variable P : entier // nombre de PDT 
+
+Début
+
+N = 0
+    Répéter 
+        Tantque P > 0 Faire // TantQue réellement nécessaire ? 
+        P = P - 3
+        N = N + 1
+        FinTantque
+    Jusqu'a P==0
+Ecrire ("Le nombre d'aller-retour nécessaires pour éplucher toutes les pommes de terre est :", N)
+Fin

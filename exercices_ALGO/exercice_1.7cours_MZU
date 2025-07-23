@@ -1,9 +1,12 @@
 variable A : entier
 variable B : entier
 variable C : entier
+variable D : entier
 
     début 
-        A=B
-        B=C 
-        C=A 
+        D=C
+        C=B
+        B=A 
+        A=D 
+        ecrire ("La variable A vaut :", A  "La variable B vaut :", B  "La variable C vaut :", C)
     fin

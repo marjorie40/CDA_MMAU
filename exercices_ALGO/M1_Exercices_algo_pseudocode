@@ -1,0 +1,61 @@
+
+N : entier // Déclaration de la variable N de type entier
+N := lireEntier () // Lecture d'un entier et affectation de la variable N
+
+
+// BLOC DECLARATION
+    variable saisieUtilisateur : entier // Déclaration de la variable N de type entier 
+    variable resultat : entier
+    variable compteur : entier  
+
+    début
+        resultat = 0
+        compteur = 1
+
+        saisieUtilisateur = lireEntier() // Identifiaction N saisi par l'utilisateur
+        
+        TANTQUE compteur <= saisieUtilisateur FAIRE
+            resultat = resultat + compteur
+            compteur = compteur + 1
+        finTantque
+        ecrire ("Le résultat pour Tantque est :", resultat) // Résultat de l'opération
+    fin
+
+
+-------------------------------------------------------------------------------------
+  Variable N : entier
+  Variable i : entier
+  Variable S : entier
+
+début 
+r = 0
+
+    Ecrire ("Veuillez entrer un nombre entier.",)
+    LireEntier (N)
+    Pour i allant de 0 à N pas 1 Faire
+    S = S + i
+    i = i + 1
+    FinPour
+ecrire ("Le résultat pour Pour est :", S) // Résultat de l'opération
+
+Fin
+
+-----------------------------------------------------------------------------------------
+
+Variable N : entier
+Variable i : entier
+Variable S : entier
+
+début
+S = 0
+
+Ecrire ("Veuillez entrer un nombre entier.",)
+    LireEntier (N)
+    Repeter S = S + i
+    i = i + 1
+    Jusqu'a i = N
+ecrire ("Le résultat pour Répéter...Jusqu'a est :", S) // Résultat de l'opération
+
+Fin
+
+   

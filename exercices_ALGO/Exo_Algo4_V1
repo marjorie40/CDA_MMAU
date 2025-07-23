@@ -1,0 +1,38 @@
+// Entrer un nombre entier positif et affiche tous les nombres pairs de 0 jusque nombre
+
+Variable A : entier
+Variable i : entier
+resultat : entier
+
+Début 
+
+    Ecrire ("Veuillez entrer un nombre entier positif")
+    Lire (A) 
+
+    Tant que A < 0 Faire
+    Ecrire ("ERREUR : Pourriez-vous saisir un nombre POSITIF s'il vous plait :) !" )
+
+    FinTantque
+
+    Si A > = 0 Alors
+
+    resultat = 0
+        Pour i allant de 0 à A pas de 1
+
+        Repeter resultat = resultat +i
+        Jusqu'a resultat mod 2 == 0
+
+        Ecrire ("Les nombres pairs jusqu'à " A, " sont :" resultat,) // est ce que ca fonctionne avec des résultats multiples ?? 
+
+        i = i +1 
+
+             FinTantque
+
+        FinPour
+
+       
+       
+    FinSi 
+
+Fin
+

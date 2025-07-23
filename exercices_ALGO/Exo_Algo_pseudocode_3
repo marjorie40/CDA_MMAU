@@ -1,0 +1,48 @@
+ax^2+bx+c=0
+
+x= (-b + racine(b^2-4ac)) /2a
+
+
+Variable a : réel
+Variable b : réel
+Variable c : réel
+Variable delta : réel
+Variable resultat : réel
+
+Début
+
+Ecrire ("Veuillez entrer les valeurs de a,b et c dans la formule mathématique suivante.",) 
+Ecrire ( LireEntier (a), "x^2 + ", LireEntier(b) , " x + ", LireEntier(c) ," = 0 ",)   // possible ?? 
+
+Ecrire ("Entrer la valeur de a") 
+Ecrire ("Entrer la valeur de b")
+Ecrire ("Ecrire la valeur de c")    // est ce necessaire ? 
+
+ delta = (b*b-4*a*c) 
+
+Si delta = 0 Alors  
+ resultat =  -(b/ (2*a))
+
+Sinon 
+    Si delta > 0 Alors
+
+    resultat = -(b-(racine)delta) /(2a)  XOR 
+    resultat = -(b + (racine)delta) / (2a)      // comment choisir la bonne ?
+
+    Sinon 
+        Si delta < 0
+        Ecrire ("Désolé, il n'y a aucune solution à votre équation",)
+
+    FinSi
+
+ Ecrire ("La solution est :" resultat,)    // Est ce la bonne place ? 
+
+ FinSi
+
+
+
+ 
+
+
+Fin
+

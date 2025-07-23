@@ -1,0 +1,15 @@
+Variable X : entier
+Variable Y : entier
+
+fonction entier puissance (parametre entier : x, parametre entier : y)
+
+
+
+    Début
+    lireEntier(X)
+    lireEntier(Y)
+
+    
+
+    Retourner le resultat 
+    Fin

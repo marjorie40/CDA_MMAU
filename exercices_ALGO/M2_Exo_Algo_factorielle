@@ -1,0 +1,63 @@
+Variable x : entier
+Variable indice : entier
+Variable resultat : reel
+
+Début
+
+resultat = 1
+LireEntier (x)
+
+// ajout d'un Si ??? 
+    Pour x = 0 ou x = 1 Faire 
+    resultat = 1
+    FinPour
+
+    Ecrire ("La factorielle de :", x, " avec Pour est :", resultat)
+
+
+// Ajout d'un Sinon ? 
+    Pour indice allant de 2 à x pas 1 Faire
+    resultat = resultat + indice
+    indice = indice + 1
+
+    FinPour
+    Ecrire ("La factorielle de :", x, " avec Pour est :", resultat)
+Fin
+
+
+---------------------------------------------------------------------------
+Variable x : entier
+Variable indice : entier
+Variable resultat : reel
+
+Début 
+
+resultat = 1
+LireEntier (x) 
+
+    Tantque x = 0 ou x = 1 Alors
+    resultat = 1
+    Fin TantQue
+
+    Ecrire ("La factorielle de :", x, " avec Tant que est :", resultat)
+
+    Tant que x > = 2 Alors
+    resultat = resultat + indice
+    indice = indice + 1
+
+    FinTantque
+    Ecrire ("La factorielle de :", x, " avec Tantque est :", resultat)
+
+Fin
+
+
+---------------------------------------------------------------------------
+Variable x : entier
+Variable indice : entier
+Variable resultat : reel
+
+Début 
+
+Repeter ??  // je ne vois pas 
+
+Jusqu'a ..
