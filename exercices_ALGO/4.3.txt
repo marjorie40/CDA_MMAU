@@ -1,0 +1,13 @@
+// trouver un mot saisi par l'utilisateur dans un dictionnaire
+
+Algorithme Recherche_Tab
+
+Variable x : nombre entier 
+Tableau Dictionnaire[i] 
+
+Début
+
+Ecrire ("Veuillez saisir votre nombre." )
+Lire x
+Pour i allant de 0 à i pas de 1 Faire
+    Si 

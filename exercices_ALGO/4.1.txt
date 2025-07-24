@@ -1,0 +1,30 @@
+// Créer un tableau de 9 notes et faire la moyenne. 
+
+Tableau tableau_Notes [9] : réel 
+Variable i : entier
+Variable somme
+Variable moyenne
+
+Début 
+
+    //consigne pour l'utilisateur
+    Ecrire ("Veuillez saisir les 9 notes.")
+
+    // saisir les 9 notes dans le tableau de notes    
+    
+    Pour i allant de 0 à 8 pas de 1 Faire
+        Lire (tableau_Notes [i])      // saisir les notes dans le tableau     
+        somme = somme + tableau_Notes [i]     // faire la somme des notes pour calcul de moyenne 
+
+    //Faire la moyenne des 9 notes
+    moyenne = somme / 9
+    
+    FinPour
+    ecrire ("La moyenne de ces 9 notes est :", moyenne)  
+Fin
+  
+
+
+
+
+        

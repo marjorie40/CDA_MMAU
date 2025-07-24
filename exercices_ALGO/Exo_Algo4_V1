@@ -2,7 +2,7 @@
 
 Variable A : entier
 Variable i : entier
-resultat : entier
+resultat : "chaine de caracteres"     // attention penser au type (pas entier mais chaine de caracteres)
 
 Début 
 
@@ -19,10 +19,10 @@ Début
     resultat = 0
         Pour i allant de 0 à A pas de 1
 
-        Repeter resultat = resultat +i
+        Repeter resultat = resultat +i       // si type entier !! somme. Donc chaine de caracteres
         Jusqu'a resultat mod 2 == 0
 
-        Ecrire ("Les nombres pairs jusqu'à " A, " sont :" resultat,) // est ce que ca fonctionne avec des résultats multiples ?? 
+        Ecrire ("Les nombres pairs jusqu'à " A, " sont :" resultat,) 
 
         i = i +1 
 

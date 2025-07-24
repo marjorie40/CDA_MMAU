@@ -10,10 +10,11 @@ Début
 
 N = 0
     Répéter 
-        Tantque P > 0 Faire // TantQue réellement nécessaire ? 
-        P = P - 3
-        N = N + 1
+        Tantque P > 0 Faire 
+            P = P - 3
+            N = N + 1
+            Jusqu'a P < 3
         FinTantque
-    Jusqu'a P==0
-Ecrire ("Le nombre d'aller-retour nécessaires pour éplucher toutes les pommes de terre est :", N)
+        
+    Ecrire ("Le nombre d'aller-retour nécessaires pour éplucher toutes les pommes de terre est :", N)
 Fin
