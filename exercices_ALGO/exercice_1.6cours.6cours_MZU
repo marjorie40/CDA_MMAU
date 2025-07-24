@@ -1,0 +1,19 @@
+Variable A : entier
+Variable B : entier
+Variable C : entier
+
+A=x 
+B=y 
+C=0
+
+Début
+Lire (A)
+Lire (B)
+
+C = A 
+A = B 
+B = C 
+
+Ecrire (La variable A vaut : ", A, "La variable B vaut : ", B)
+
+

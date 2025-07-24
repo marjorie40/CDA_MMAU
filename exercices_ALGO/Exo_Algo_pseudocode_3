@@ -21,28 +21,24 @@ Ecrire ("Ecrire la valeur de c")    // est ce necessaire ?
  delta = (b*b-4*a*c) 
 
 Si delta = 0 Alors  
- resultat =  -(b/ (2*a))
-
-Sinon 
-    Si delta > 0 Alors
-
-    resultat = -(b-(racine)delta) /(2a)  XOR 
-    resultat = -(b + (racine)delta) / (2a)      // comment choisir la bonne ?
+    resultat =  -(b/ (2*a))
 
     Sinon 
-        Si delta < 0
-        Ecrire ("Désolé, il n'y a aucune solution à votre équation",)
+        Si delta > 0 Alors
+        resultat = -(b-(racine)delta) /(2a)  XOR 
+        resultat = -(b + (racine)delta) / (2a)      
+        Ecrire ("La solution est :" resultat,)
+        FinSi
 
+            Sinon 
+                Si delta < 0
+                Ecrire ("Désolé, il n'y a aucune solution à votre équation",)
+            FinSi
     FinSi
 
  Ecrire ("La solution est :" resultat,)    // Est ce la bonne place ? 
 
- FinSi
-
-
-
- 
-
+FinSi
 
 Fin
 

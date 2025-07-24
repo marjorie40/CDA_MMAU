@@ -1,15 +1,14 @@
-Variable X : entier
-Variable Y : entier
+Variable x : entier
+Variable y : entier
+resultat : entier
 
-fonction entier puissance (parametre entier : x, parametre entier : y)
+fonction puissance (px: entier, py : entier) : entier
+    Lire (px,py)
+    Resultat = px puissance py
+    Retourner résultat
 
+Début
 
+    Ecrire (lireEntier(X), "puissance ", lireEntier(Y) " est égale à :", resultat)
 
-    Début
-    lireEntier(X)
-    lireEntier(Y)
-
-    
-
-    Retourner le resultat 
-    Fin
+Fin

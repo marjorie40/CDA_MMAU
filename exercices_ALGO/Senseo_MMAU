@@ -9,28 +9,28 @@ Variable eau : réel
 Debut
 // Vérifier présence d'une tasse
     Si TASSE_PRESENTE = False Alors
-    Ne rien faire // ?? comment traduire ça  ? PAS NECESSAIRE ?
+        Ne rien faire // ?? comment traduire ça  ? PAS NECESSAIRE ?
     FinSi
 
     Si TASSE_PRESENTE = True Alors
-    Proceder à l'etape suivante
+        Proceder à l'etape suivante
     FinSi
 
 // Se servir la bonne quantité de café en poudre
 
     Lire (cafe)
     Tantque cafe < QUANTITE_CAFE Alors 
-    Servir cafe JUSQU'A cafe == QUANTITE_CAFE
-    Ecrire ("Votre quantité de café est optimale, veuillez vous servir de l'eau")
-    Proceder à l'etape suivante
+        Servir cafe JUSQU'A cafe == QUANTITE_CAFE
+        Ecrire ("Votre quantité de café est optimale, veuillez vous servir de l'eau")
+        Proceder à l'etape suivante
     FinTantque 
 
 // Verser la bonne quantité d'eau chaude
 
     Lire (eau)
     Tantque eau < NIVEAU_EAU Alors
-    Verser eau JUSQU'A eau == NIVEAU_EAU
-    Ecrire ("Votre café est pret, bonne dégustation !")
+        Verser eau JUSQU'A eau == NIVEAU_EAU
+        Ecrire ("Votre café est pret, bonne dégustation !")
     FinTantque
 
 Fin

@@ -13,20 +13,17 @@ Lire (n)
     Fin Tantque 
 
 Si n > = 0 Alors
-r = 0 
-
-    Répéter
 
         Pour r allant de 0 à n pas 1 Faire
 
             si r mod 2 == 0 Alors // comment écrire (utiliser modulo) ? 
             Ecrire (r "est un nombre pair")
+            Jusqu'a r = n 
+
             FinSi
 
-        r = r + 1
-
         FinPour
-    Jusqu'a r = n 
+   
     
     FinRepeter
 
