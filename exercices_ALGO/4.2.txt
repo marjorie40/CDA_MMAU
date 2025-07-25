@@ -1,0 +1,53 @@
+// -- BUBBLE SORT -- comparaison 2 à 2
+
+//Algo_trier dans l'ordre croissant 
+
+Tableau tab_Valeurs (x : valeurs entiers) [L] : entier
+
+Variables i, n : entier
+
+Début 
+
+    Pour i allant de 0 à L-1 Faire
+    Si i > i + 1 Alors
+     n = (i + 1)
+     i + 1 = (i)
+     i = (n)
+
+    FinSi
+
+Ecrire ("Voilà, votre tableau est bien trié par ordre croissant.")
+Fin
+     
+------------------------------------------------------------------------------
+
+// -- SELECTION SORT -- 
+
+tab_Valeurs () [L] : entier
+
+Variable i : entier // indice tableau
+Variable min : entier // valeur référence mini
+Variable n : entier
+Variable x : booleen 
+Variable débutTableau
+Variable longueurTableau
+
+Début 
+
+x = false
+    Pour i allant de 0 à longueurTableau-1 Faire
+    
+    //comparer les 2 valeurs
+    Répéter
+    Si i > i + n Alors
+    x = true
+    min = i 
+    Jusqu'a longueurTableau -1
+    Placer min i=0 
+
+    Pour i allant de i+1 à longueurTableau-1 
+    // swap
+
+
+        Ecrire ("Voilà, votre tableau est bien trié par ordre croissant.")
+    Fin
