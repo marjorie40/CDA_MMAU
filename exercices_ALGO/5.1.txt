@@ -1,0 +1,30 @@
+//Nombre d'occurence dans un tableau
+
+Tableau tab[N] : entier  // tableau de N valeurs entières 
+Variable i : entier 
+Variable valeurX : entier
+Variable compteurX : entier
+
+Fonction Compte_Occurences 
+Début
+
+  Pour i allant de 0 à N avec pas de 1 Faire  // scanne les valeurs de la liste
+    Si i = valeurX Alors  
+    compteurX = compteur X + 1     // on incrémente le compteur d'occurence
+    FinSi
+    retourne compteurX  
+Fin fonction Compte_Occurence
+
+Début 
+compteurX = 0
+  Ecrire ("Veuillez entrer un nombre compris entre 0 et 100. ")
+  Lire (valeurX)
+
+  Pour i allant de 0 à N avec un pas de 1 Faire
+    Répéter fonction Compte_Occurences
+    Jusqu'à i = N  // n'est ce pas redondant avec la structure Pour dans la fonction ??
+  FinPour
+
+Ecrire ("Le nombre d'occurence de la valeur ", valeurX, "est de :", compteurX,)
+
+Fin
