@@ -11,10 +11,11 @@ Début
     Ecrire ("Veuillez saisir les 9 notes.")
 
     // saisir les 9 notes dans le tableau de notes    
-    
+    somme = 0
     Pour i allant de 0 à 8 pas de 1 Faire
         Lire (tableau_Notes [i])      // saisir les notes dans le tableau     
         somme = somme + (tableau_Notes [i])     // faire la somme des notes pour calcul de moyenne 
+        i = i + 1
 
     //Faire la moyenne des 9 notes
     moyenne = somme / 9
